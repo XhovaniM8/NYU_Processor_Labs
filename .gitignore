@@ -1,3 +1,67 @@
+# macOS specific files
 .DS_Store
-.vscode
+
+# Visual Studio Code settings
+.vscode/
+
+# Build directories and output
 build/
+dist/
+out/
+obj/
+tmp/
+logs/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+
+# Ignore FPGA and EDA tool specific files (if applicable)
+*.bit
+*.dcp
+*.jou
+*.log
+*.rpt
+*.pb
+*.xpr
+*.xpa
+*.xci
+*.xdc
+*.tcl
+*.xml
+*.xsd
+*.xsim
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake specific files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Generated files from Verilator or other simulators
+verilated.*
+*.vcd
+*.fst
+
+# Generated documentation or report files
+*.html
+*.pdf
+
+# Git-specific files
+.idea/
+*.orig
+
+# General temporary files
+*.log
+*.tmp
