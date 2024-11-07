@@ -5,6 +5,7 @@
 .vscode/
 
 # Build directories and output
+onboarding-lab-1/cmake-test/build/
 build/
 dist/
 out/
