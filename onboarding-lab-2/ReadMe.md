@@ -17,7 +17,6 @@ Why do you think the reason for these different testing approaches are? What are
     - When the design has a small amount of input variables
     - For critical modules
 
-
 ### Sampling Initial Values for Multiple Cycles (Exercise 2)
 - **Advantages**
     - Covers multi-cycle behavior

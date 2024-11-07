@@ -81,7 +81,7 @@ int main() {
 
   // Additional test: Verify Don't Care behavior with different input values
   model.cs = 0;
-  // Try different combinations of inputs to ensure they don't affect output
+  // Try different combinations of inputs and see effect on output
   for(uint8_t test_val = 0; test_val < 255; test_val += 51) {
     model.alpha = test_val;
     model.beta = ~test_val;        // Use complement to test different values
