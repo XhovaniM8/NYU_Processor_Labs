@@ -1,0 +1,30 @@
+{
+  "name": "week-three-lab",
+  "version": "1.0.0",
+  "description": "Template for week three lab",
+  "homepage": "https://github.com/NYU-Processor-Design/nyu-cmake",
+  "maintainers": [
+    "Vito Gamberini <vito@gamberini.email>"
+  ],
+  "license": "CC0-1.0",
+  "dependencies": [
+    "nyu-cmake"
+  ],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "git",
+      "baseline": "9558037875497b9db8cf38fcd7db68ec661bffe7",
+      "repository": "https://github.com/microsoft/vcpkg.git"
+    },
+    "registries": [
+      {
+        "kind": "git",
+        "baseline": "83a1b8ad4f7be3bf2e16d4397f58e6119e001ef6",
+        "repository": "https://github.com/NYU-Processor-Design/nyu-registry.git",
+        "packages": [
+          "nyu-*"
+        ]
+      }
+    ]
+  }
+}
