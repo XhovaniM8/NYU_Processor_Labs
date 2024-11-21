@@ -73,7 +73,6 @@ int main() {
                 << ", Got=" << static_cast<int>(model.out) << std::endl;
     }
 
-    // Debug print for expected vs actual output
     std::cout << "Debug: Expected=" << static_cast<int>(expected)
               << ", Got=" << static_cast<int>(model.out) << std::endl;
 
