@@ -10,14 +10,14 @@
 */
 module Mystery2 (
     input clk,
-    input reset,
+    input nReset,
     input [7:0] a_in,
     input [7:0] b_in,
     output logic [15:0] out
 );
   logic [2:0] count;
   always_ff @(negedge clk)
-    if (reset) begin
+    if (nReset) begin
       out   <= {b_in, a_in};
       count <= 0;
     end else begin

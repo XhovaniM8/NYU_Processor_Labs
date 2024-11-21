@@ -11,7 +11,7 @@
 */
 module Exercise3 (
     input clk,
-    input reset,
+    input nReset,
     input [3:0] a,
     input [15:0] b,
     input [15:0] c,
